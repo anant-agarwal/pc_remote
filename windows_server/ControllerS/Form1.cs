@@ -58,12 +58,12 @@ namespace ControllerS
             dic.Add("S", "{F5}");
             dic.Add("E", "{ESC}");
             dic.Add("W", "^{ESC}");
-            dic.Add("s", "{LEFT}{LEFT}s");//sleep
-            dic.Add("h", "{LEFT}{LEFT}h");//hibernate
+            dic.Add("s", "#{LEFT}{LEFT}s");//sleep
+            dic.Add("h", "#{LEFT}{LEFT}h");//hibernate
             dic.Add("l", "#l");//lock
             dic.Add("d", "#d");//desktop
-            dic.Add("r", "{LEFT}{LEFT}r");//restart
-            dic.Add("c","{LEFT}{ENTER}");//shutdown;
+            dic.Add("r", "#{LEFT}{LEFT}r");//restart
+            dic.Add("c","#{LEFT}{ENTER}");//shutdown;
         }
 
         private void Form1_Load(object sender, EventArgs e)
