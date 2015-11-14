@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/desk"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/black"
+                    android:gravity="center"
+                    android:onClick="ofclk"
+                    android:text="DESKTOP"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/sl"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/black"
+                    android:gravity="center"
+                    android:onClick="ofclk"
+                    android:text="SLEEP"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/lck"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/black"
+                    android:gravity="center"
+                    android:onClick="ofclk"
+                    android:text="LOCK"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/sd"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/red"
+                    android:gravity="center"
+                    android:onClick="ofclk"
+                    android:text="SHUT DOWN"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/hyb"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/black"
+                    android:gravity="center"
+                    android:onClick="ofclk"
+                    android:text="HYBERNATE"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/rest"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/black"
+                    android:gravity="center"
+                    android:onClick="ofclk"
+                    android:text="RESTART"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

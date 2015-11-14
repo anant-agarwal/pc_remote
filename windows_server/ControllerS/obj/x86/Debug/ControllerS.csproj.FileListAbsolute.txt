@@ -1,0 +1,24 @@
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\bin\Debug\ControllerS.exe
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\bin\Debug\ControllerS.pdb
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\bin\Debug\InTheHand.Net.Personal.dll
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\bin\Debug\InTheHand.Net.Personal.xml
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\Interop.AutoItX3Lib.dll
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\ControllerS.csproj.ResolveComReference.cache
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\ControllerS.Form1.resources
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\ControllerS.Properties.Resources.resources
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\ControllerS.exe
+c:\users\ajit\documents\visual studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\ControllerS.pdb
+C:\Users\ajit\Documents\Visual Studio 2010\Projects\ControllerS\ControllerS\bin\Debug\ControllerS.exe.manifest
+C:\Users\ajit\Documents\Visual Studio 2010\Projects\ControllerS\ControllerS\bin\Debug\ControllerS.application
+C:\Users\ajit\Documents\Visual Studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\ControllerS.exe.manifest
+C:\Users\ajit\Documents\Visual Studio 2010\Projects\ControllerS\ControllerS\obj\x86\Debug\ControllerS.application
+I:\spider_stall\ControllerS\ControllerS\obj\x86\Debug\ControllerS.csproj.ResolveComReference.cache
+I:\spider_stall\ControllerS\ControllerS\obj\x86\Debug\ControllerS.exe
+I:\spider_stall\ControllerS\ControllerS\obj\x86\Debug\ControllerS.pdb
+E:\old_newVolume\spider_stall\ControllerS\ControllerS\obj\x86\Debug\Interop.AutoItX3Lib.dll
+E:\old_newVolume\spider_stall\ControllerS\ControllerS\obj\x86\Debug\ControllerS.csproj.ResolveComReference.cache
+E:\old_newVolume\spider_stall\ControllerS\ControllerS\obj\x86\Debug\ControllerS.exe
+E:\old_newVolume\spider_stall\ControllerS\ControllerS\obj\x86\Debug\ControllerS.pdb

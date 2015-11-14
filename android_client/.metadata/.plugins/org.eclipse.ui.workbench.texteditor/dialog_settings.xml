@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="250" key="DIALOG_Y_ORIGIN"/>
+		<item value="1010" key="DIALOG_X_ORIGIN"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="mHandler" key="selection"/>
+		<list key="findhistory">
+			<item value="mhandler"/>
+			<item value="handler"/>
+			<item value="toast"/>
+			<item value="menu"/>
+			<item value="bundle"/>
+			<item value="otherfeatureService"/>
+			<item value="Bluetoothfeature"/>
+			<item value="otherserviceService"/>
+		</list>
+		<list key="replacehistory">
+			<item value="BluetoothfeatureService"/>
+			<item value="otherfeature"/>
+			<item value="mhandler2"/>
+			<item value="m2BluetoothAdapter"/>
+			<item value="m3BluetoothAdapter"/>
+			<item value="m2featureService"/>
+		</list>
+	</section>
+</section>

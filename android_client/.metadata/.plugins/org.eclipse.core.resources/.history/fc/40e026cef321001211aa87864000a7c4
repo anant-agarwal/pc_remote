@@ -1,0 +1,107 @@
+package spider.nitt.pptrem;
+
+import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.Window;
+import android.widget.TextView;
+import android.widget.Toast;
+
+/**
+ * This is the main Activity that displays the current feature session.
+ */
+public class Bluetoothfeature extends Activity {
+    private static final boolean D = true;
+	private static final String TAG = null;
+	menu m = null;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if(D) Log.e(TAG, "+++ ON CREATE +++");
+
+        
+        
+        setContentView(R.layout.main);
+
+        (findViewById(R.id.btn1)).setVisibility(View.GONE);
+        (findViewById(R.id.btn2)).setVisibility(View.GONE);
+        (findViewById(R.id.btn4)).setVisibility(View.GONE);
+		
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        if(D) Log.e(TAG, "++ ON START ++");
+
+    }
+
+    @Override
+    public synchronized void onResume() {
+        super.onResume();
+        if(D) Log.e(TAG, "+ ON RESUME +");
+
+    }
+
+    private void setupfeature() {
+        Log.d(TAG, "setupfeature()");
+    }
+
+    @Override
+    public synchronized void onPause() {
+    	super.onPause();
+    	if(D) Log.e(TAG, "- ON PAUSE -");
+    }
+
+    @Override
+    public void onStop() {
+    	super.onStop();
+    	finish();
+    	if(D) Log.e(TAG, "-- ON STOP --");
+    }
+
+    @Override
+    public void onDestroy() {
+    	super.onDestroy();
+        if(D) Log.e(TAG, "--- ON DESTROY ---");
+    }
+    public void btn(View v){
+    	switch(v.getId()){
+    	case R.id.btn1:
+    		sendMessage("L");
+    		break;
+    	case R.id.btn2:
+    		sendMessage("R");
+    		break;
+    	case R.id.btn3:
+    		sendMessage("S");
+            (findViewById(R.id.btn1)).setVisibility(View.VISIBLE);
+            (findViewById(R.id.btn2)).setVisibility(View.VISIBLE);
+            (findViewById(R.id.btn4)).setVisibility(View.VISIBLE);
+    		(findViewById(R.id.btn3)).setVisibility(View.GONE);
+    		break;
+    	case R.id.btn4:
+    		sendMessage("E");
+            (findViewById(R.id.btn1)).setVisibility(View.GONE);
+            (findViewById(R.id.btn2)).setVisibility(View.GONE);
+            (findViewById(R.id.btn4)).setVisibility(View.GONE);
+    		(findViewById(R.id.btn3)).setVisibility(View.VISIBLE);
+    		break;
+    	case R.id.home:
+    		Intent OpenAct = new Intent("spider.nitt.pptrem.MENU"); 
+			startActivity(OpenAct);
+    		break;
+    	}
+    }
+    
+
+}

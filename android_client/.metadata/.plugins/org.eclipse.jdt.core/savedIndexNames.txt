@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Users\King\Desktop\JDroid\pptrem\.metadata\.plugins\org.eclipse.jdt.core
+1195819569.index
+1895151578.index
+969968605.index

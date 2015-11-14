@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/of"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/red"
+            android:onClick="menubtns"
+            android:text="Other controls"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/present"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/red"
+            android:onClick="menubtns"
+            android:text="presentation"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

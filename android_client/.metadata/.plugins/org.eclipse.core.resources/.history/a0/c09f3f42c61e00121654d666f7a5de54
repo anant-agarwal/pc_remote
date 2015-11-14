@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+   package="spider.nitt.pptrem"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk minSdkVersion="8" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/app_icon" >
+        <activity android:name=".intro"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".otherfeature"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+                 android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="spider.nitt.pptrem.OTHERFEATURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bluetoothfeature"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+              android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="spider.nitt.pptrem.BLUETOOTHFEATURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menu"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="spider.nitt.pptrem.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeviceListActivity"
+                  android:label="@string/select_device"
+                  android:theme="@android:style/Theme.Dialog"
+                  android:configChanges="orientation|keyboardHidden" />
+    </application>
+</manifest>
